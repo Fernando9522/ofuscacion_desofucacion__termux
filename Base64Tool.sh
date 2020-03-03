@@ -121,7 +121,7 @@ elif [ "$opcion" == "4" ]; then
         base64 -d $desoofuscar > $namedesofuscado
 	rm $desoofuscar 
         mv $namedesofuscado '/data/data/com.termux/files/home/Base64Tool/desofuscados/'
-        printf "${a}[${v}+${a}]${w}Resultado del Archivo Ofuscado\n${a}[${v}+${a}]${w}Se Encuentra en:${v}${y} /data/data/com.termux/files/home/Base64Tool/ofuscados/ "
+        printf "${a}[${v}+${a}]${w}Resultado del Archivo Ofuscado\n${a}[${v}+${a}]${w}Se Encuentra en:${v}${y} /data/data/com.termux/files/home/Base64Tool/desofuscados/ "
         sleep 3
         echo ""
         printf "\n${a}[${m}?${a}]${y}Presiona Enter Para Continuar "
