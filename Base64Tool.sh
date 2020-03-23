@@ -35,7 +35,7 @@ echo -e "${n}[4] ${w}Desofuscar Archivo En Base64${d}"
 printf "$v=================================$d\n"
 echo -e "${n}[5] ${w}Salir De La Tool${d}"
 printf "$v=================================$d\n"
-printf "\e[1;30m  Created by :\e[1;36m F@br1x\e[1;30m and \e[1;36m你好😜\e[0;m\n\n\n"
+printf "\e[1;30mv1.1b  Created by :\e[1;36m F@br1x\e[1;30m and \e[1;36m你好😜\e[0;m\n\n\n"
 }
 
 pregunta() {
