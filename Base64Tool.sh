@@ -115,7 +115,7 @@ elif [ "$opcion" == "4" ]; then
 	printf "${a}[${v}=${a}]${y}Ingrese Nuevo Nombre de Archivo Desofuscado${r}:~> ${w}"
         read -r namedesofuscado
         sleep 2                                                                                       
-	printf "${a}[${m}!${a}]${v}Comenzando Ofuscación del Archivo...${d}\n" |pv -qL 12
+	printf "${a}[${m}!${a}]${v}Comenzando Desofuscación del Archivo...${d}\n" |pv -qL 12
 	sleep 4
         touch $namedesofuscado
         base64 -d $desoofuscar > $namedesofuscado
