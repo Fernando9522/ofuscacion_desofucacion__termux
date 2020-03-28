@@ -22,7 +22,7 @@ apt install git pv -y
 Clonamos el Repositorio:
 
 
-git clone https://github.com/Fabrix07Hack/Base64Tool.git 
+git clone https://github.com/Fabr1x/Base64Tool.git 
 
 
 Seleccionamos el Fichero:
